@@ -1,24 +1,27 @@
 <!DOCTYPE html>
+<!-- Define que o documento utiliza HTML5 -->
 <html lang="pt-br">
 <head>
+    <!-- Configurações da página -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 3 Web Design</title>
     <style>
+        /* Centraliza o texto da classe center */
         .center {
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1 align="center">
+    <header><!-- Cabeçalho com os títulos H1 até H6 -->
+        <h1 align="center"><!-- Texto centralizado -->
             Título principal (H1) - centralizado
         </h1>
-        <h2 align="left">
+        <h2 align="left"><!-- Texto a esquerda -->
             Subtítulo (H2) - alinhado à esquerda
         </h2>
-        <h3 align="right">
+        <h3 align="right"><!-- Texto a direita -->
             Seção (H3) - alinhado à direita
         </h3>
         <h4>
@@ -31,41 +34,41 @@
             Nota (H6)
         </h6>
     </header>
-    <nav>
+    <nav><!-- Menu de navegação da página -->
         <p>
-            <a href="posts">Postas</a> |
+            <a href="posts">Postas</a> | 
             <a href="lateral">Lateral</a> |
             <a href="rodapé">Rodapé</a>
         </p>
     </nav>
-    <section id="posts">
+    <section id="posts"> <!-- Seção principal contendo o post -->
         <article class="post">
-            <header>
+            <header><!-- Título do primeiro post -->
                 <h2>
                     Meu blog - Primeiro Post
                 </h2>
             </header>
-            <p>
+            <p>  <!-- Parágrafo demonstrando diferentes formatações de texto -->
                         Este é um exemplo de texto com <strong>negrito</strong>, <em>itálico</em>,
         <span style="text-decoration: underline;">sublinhado</span> e
         <span style="text-decoration: line-through;">texto riscado</span>.
         Também podemos usar <sub>subscrito</sub> e <sup>sobrescrito</sup>.
             </p>
 
-            <p>
+            <p><!-- Parágrafo com texto azul e fonte maior usando CSS inline -->
                 Exemplo de <span style="color: blue; font-size: larger;">Texto estilizado</span> (substituindo a tag font obsoleta)
             </p>
 
-            <div class="center">
+            <div class="center"><!-- Texto centralizado através da classe .center -->
                 Este texto está centralizado
             </div>
 
-            <p style="text-align: justify;">
+            <p style="text-align: justify;"> <!-- Parágrafo justificado com quebra de linha -->
                 Parágrafo justificado para demonstrar alinhamento. <br>
                 Esta é a linha seguinte após o br
             </p>
 
-            <aside id="lateral">
+            <aside id="lateral"><!-- Barra lateral com conteúdo relacionado -->
                 <h3>
                     Conteúdo Relacionado
                 </h3>
@@ -75,7 +78,7 @@
             </aside>
         </article>
     </section>
-    <footer id="rodapé">
+    <footer id="rodapé"><!-- Rodapé da página -->
         <p>
             © 2025 – Exemplo didático de HTML da Aula
         </p>
